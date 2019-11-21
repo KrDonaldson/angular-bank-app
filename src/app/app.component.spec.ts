@@ -10,7 +10,6 @@ import { TellerComponent } from './teller/teller.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavComponent } from './nav/nav.component';
 
-
 describe('AppComponent', () => {
 
   beforeEach(() => {
