@@ -6,8 +6,22 @@ import { BankService } from '../bank.service';
   templateUrl: './atm.component.html',
   styleUrls: ['./atm.component.css']
 })
+
 export class AtmComponent {
-
-  constructor() { }
-
+  value: number;
+  constructor(
+    private bankService : BankService
+  ) { }
+  
+  withdraw() {
+    this.bankService.account.balance -= this.value;
+  }
+  
+  deposit() {
+    this.bankService.account.balance += this.value;
+  }
+  /* need to create an alert saying, 
+  Thank you. You ${{user.action}} ${{value}}.
+  Your new balance is ${{this.bankService.account.balance}}.
+  */
 }
