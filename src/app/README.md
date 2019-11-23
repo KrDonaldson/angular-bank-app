@@ -1,4 +1,5 @@
-Make sure you can serve it correctly before developing!
+Make sure you can serve it correctly before developing! 
+ng serve
 
 How the App will work - User Stories
     *note: Make sure to complete a step completely by passing the related tests before moving on to the next step.  The steps are meant to provide you with a direction and prevent you from getting overwhelmed. The tests are meant to be a guide you through the logic of the application, but passing all the tests does not mean your application has no errors.  You will also need to ensure that things are properly display on screen and the application is not crashing.
