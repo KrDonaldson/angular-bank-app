@@ -5,7 +5,6 @@
     <!-- Display Feedback information here -->
   </section>
   <aside class="options">
-    <!-- Add functionality to the buttons below -->
     <ul class="options-list">
       <li>
         <input type="number" [(ngModel)]= "value">
@@ -17,10 +16,10 @@
         <button (click) = "deposit()">Deposit Money</button>
       </li>
       <li class="options-item">
-        <button>Balance Inquiry</button>
+        <button (click) = "balance()">Current Balance</button>
       </li>
       <li class="options-item">
-        <button>Transactions History</button>
+        <button (click) = "transactions()">Transactions History</button>
       </li>
     </ul>
   </aside>

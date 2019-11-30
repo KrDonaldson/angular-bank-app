@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
 export class BankService {
   account: any = {
     fname: 'first name',
@@ -38,5 +39,5 @@ export class BankService {
       }
     ]
   };
-  constructor() { }
+  constructor() {   }
 }
